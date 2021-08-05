@@ -1,18 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './header.css';
+import Mobile from './mobile';
+import Web from './web';
 
 function Header() {
+  
+  // State boolean to determine if our mobile sidebar is open or not
+  // useState is a react hook
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
     <div className="header">
       <div className="logo">Logo</div>
       
       <div className="menu">
-        <div className="web-menu">Web</div>
-        <div className="mobile-menu">Mobile</div>
+        <div className="web-menu">
+          <Web />
+        </div>
+
+        <div className="mobile-menu">
+          <div>
+            <i class="fi-rr-menu-burger"></i>
+          </div>
+          {isOpen && <Mobile />}  
+        </div>
+
       </div>
-      
     </div>
-  )
+  );
 }
 
 export default Header;
