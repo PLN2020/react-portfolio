@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Web() {
+function Mobile() {
   return (
     <div>
-      This is Web.
+      This is Mobile.
     </div>
   )
 }
 
-export default Web
+export default Mobile
