@@ -19,10 +19,10 @@ function Header() {
         </div>
 
         <div className="mobile-menu">
-          <div>
+          <div onClick={() => setIsOpen(!isOpen)}>
             <i class="fi-rr-menu-burger"></i>
           </div>
-          {isOpen && <Mobile />}  
+          {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}  
         </div>
 
       </div>
