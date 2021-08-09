@@ -1,6 +1,6 @@
 import React from 'react'
-import About from './about/about'
 import './body.css'
+import About from './about/about'
 import Contact from './contact/contact'
 import Projects from './projects/projects'
 import Skills from './skills/skills'
