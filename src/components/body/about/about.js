@@ -1,4 +1,5 @@
 import React from 'react'
+import SocialContact from '../../common/social-contact/social-contact'
 import "./about.css"
 
 function About() {
@@ -14,9 +15,7 @@ function About() {
           <img src={require("../../../assets/coding.png").default} alt="" className="picture" />
         </div>
       </div>
-      <div className="about-bottom">
-        About Bottom
-      </div>
+      <SocialContact />
     </div>
   )
 }
