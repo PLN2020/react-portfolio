@@ -4,7 +4,7 @@ import About from './about/about'
 import Contact from './contact/contact'
 import Projects from './projects/projects'
 import Skills from './skills'
-import Work from './work/work'
+import Work from './work'
 
 function Body() {
   return (
