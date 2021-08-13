@@ -12,7 +12,9 @@ function About() {
           <br />Third About Info Line
         </div>
         <div className="about-photo">
-          <img src={require("../../../assets/coding.png").default} alt="" className="picture" />
+          <a href="https://storyset.com/online" target="_blank">
+            <img src={require("../../../assets/coding.png").default} alt="" className="picture" />
+          </a>
         </div>
       </div>
       <SocialContact />
