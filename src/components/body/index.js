@@ -1,7 +1,7 @@
 import React from 'react'
 import './body.css'
 import About from './about/about'
-import Contact from './contact/contact'
+import Contact from './contact'
 import Projects from './projects/projects'
 import Skills from './skills'
 import Work from './work'
