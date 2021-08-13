@@ -3,7 +3,7 @@ import './body.css'
 import About from './about/about'
 import Contact from './contact/contact'
 import Projects from './projects/projects'
-import Skills from './skills/skills'
+import Skills from './skills'
 import Work from './work/work'
 
 function Body() {
