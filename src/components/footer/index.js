@@ -4,7 +4,7 @@ import "./footer.css"
 function Footer() {
   return (
     <div className="footer">
-      © Patrick-Lam Nguyen | 2021
+      © PLN | 2021
     </div>
   )
 }
