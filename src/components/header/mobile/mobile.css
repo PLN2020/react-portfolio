@@ -8,6 +8,7 @@
   padding: 18px 12px;
   display: flex;
   flex-direction: column;
+  transition: 0.6s;
 }
 
 .close-icon {
