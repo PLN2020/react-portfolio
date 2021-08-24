@@ -7,9 +7,9 @@ function About() {
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          About Info
-          <br /><span>Second About Info Line</span>
-          <br />Third About Info Line
+          Hi, my name is
+          <br /><span>Patrick</span>, and I am a
+          <br />Web Developer.
         </div>
         <div className="about-photo">
           <a href="https://storyset.com/online" target="_blank" rel="noreferrer">
