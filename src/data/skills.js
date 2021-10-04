@@ -25,11 +25,11 @@ export const SkillsData=[
     list: [
       {
         name: "Ruby",
-        icon: <i class="devicon-ruby-plain-wordmark colored"></i>
+        icon: <i class="devicon-ruby-plain colored"></i>
       },
       {
         name: "Rails",
-        icon: <i class="devicon-rails-plain-wordmark colored"></i>
+        icon: <i class="devicon-rails-plain colored"></i>
       },
     ]
   },
