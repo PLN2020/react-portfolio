@@ -22,7 +22,7 @@
   color: gray;
 }
 
-.work-desc {
+.edu-desc {
   text-align: left;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -33,7 +33,7 @@
 }
 
 @media only screen and (max-width: 720px) {
-  .work-card {
+  .edu-card {
     width: 100%;
   }
 }

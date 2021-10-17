@@ -1,4 +1,4 @@
-export const WorkData = [
+export const EducationData = [
   {
     company: "Company Name",
     designation: "My Position",
