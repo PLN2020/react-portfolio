@@ -4,7 +4,7 @@ import "./edu-card.css"
 function EduCard({ item }) {
   return (
     <div className="edu-card">
-      <img src={item.companyLogo} alt="" className="edu-logo" />
+      {/* <img src={item.companyLogo} alt="" className="edu-logo" /> */}
       <div className="edu-info">
         <label className="company-name">{item.company}</label>
         
