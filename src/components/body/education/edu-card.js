@@ -13,7 +13,7 @@ function EduCard({ item }) {
         </div>
 
         <div className="edu-desc">
-          <p>{item.work}</p>
+          <p>{item.description}</p>
         </div>
       </div>
     </div>

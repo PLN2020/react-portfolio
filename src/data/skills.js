@@ -33,4 +33,37 @@ export const SkillsData=[
       },
     ]
   },
+  {
+    type: "Other",
+    list: [
+      {
+        name: "JIRA",
+        icon: <i class="devicon-ruby-plain colored"></i>
+      },
+      {
+        name: "Confluence",
+        icon: <i class="devicon-rails-plain colored"></i>
+      },
+      {
+        name: "Trello",
+        icon: <i class="devicon-rails-plain colored"></i>
+      },
+      {
+        name: "Figma",
+        icon: <i class="devicon-rails-plain colored"></i>
+      },
+      {
+        name: "Testrail",
+        icon: <i class="devicon-rails-plain colored"></i>
+      },
+      {
+        name: "Github",
+        icon: <i class="devicon-rails-plain colored"></i>
+      },
+      {
+        name: "Whimsical",
+        icon: <i class="devicon-rails-plain colored"></i>
+      },
+    ]
+  },
 ]

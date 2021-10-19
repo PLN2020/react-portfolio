@@ -32,6 +32,11 @@
   max-width: 80%;
 }
 
+.company-name {
+  font-size: large;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 720px) {
   .edu-card {
     width: 100%;

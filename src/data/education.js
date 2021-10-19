@@ -1,10 +1,18 @@
 export const EducationData = [
   {
-    company: "Company Name",
-    designation: "My Position",
-    dateJoining: "yyyy-mm-dd",
-    dateEnd: "Present",
+    company: "Le Wagon",
+    designation: "Web Development Bootcamp",
+    dateJoining: "October 2020",
+    dateEnd: "2021",
     companyLogo: "https://www.ptw.com/images/logo/ptw.png",
-    work: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "Attended the 24 week part-time Web Development bootcamp as part of batch #517, and learned HTML, CSS, Bootstrap, Javascript, SQL, git, GitHub, Heroku and Ruby on Rails.",
+  },
+  {
+    company: "Université de Montréal",
+    designation: "East Asian Studies",
+    dateJoining: "2014",
+    dateEnd: "2019",
+    companyLogo: "https://www.ptw.com/images/logo/ptw.png",
+    description: "Completed my Bachelor of Arts in Asian Studies at the University of Montreal. I specialized in Japanese culture and language and participated in a 1 semester exchange program at the University of Kanazawa in 2016.",
   }
 ]
